@@ -10,13 +10,13 @@ devDependencies:
     version: 12.2.17
   '@angular/compiler-cli':
     specifier: 12.2.17
-    version: 12.2.17(@angular/compiler@12.2.17)(typescript@4.3.2)
+    version: 12.2.17(@angular/compiler@12.2.17)(typescript@4.3.5)
   '@angular/core':
     specifier: 12.2.17
     version: 12.2.17(rxjs@7.6.0)(zone.js@0.11.8)
   '@public-ui/components':
-    specifier: 1.6.0-rc.22
-    version: 1.6.0-rc.22
+    specifier: 1.6.0-rc.23
+    version: 1.6.0-rc.23
   '@types/minimatch':
     specifier: 5.1.2
     version: 5.1.2
@@ -43,7 +43,7 @@ devDependencies:
     version: 2.6.1
   typescript:
     specifier: '4.3'
-    version: 4.3.2
+    version: 4.3.5
   zone.js:
     specifier: 0.11.8
     version: 0.11.8
@@ -64,7 +64,7 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: true
 
-  /@angular/compiler-cli@12.2.17(@angular/compiler@12.2.17)(typescript@4.3.2):
+  /@angular/compiler-cli@12.2.17(@angular/compiler@12.2.17)(typescript@4.3.5):
     resolution: {integrity: sha512-gJJlnDr8Fhs6z0hH0Y/5GC1YAgHY+sRh2BUrbDu+nIUubyyOVYSyQdL1jwEfCSIZl1GSg+4b4thU7pp7HtmX8g==}
     engines: {node: ^12.14.1 || >=14.0.0}
     hasBin: true
@@ -86,7 +86,7 @@ packages:
       source-map: 0.6.1
       sourcemap-codec: 1.4.8
       tslib: 2.6.1
-      typescript: 4.3.2
+      typescript: 4.3.5
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
@@ -357,17 +357,17 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@public-ui/components@1.6.0-rc.22:
-    resolution: {integrity: sha512-+Hrjsj6QjLq7jQyAzbMZM6poipS1m22Y51V5/pKj+4ZGOcwRG41lm687WhCa43DhpskMkYb+gfWN+Jf0ItPPFw==}
+  /@public-ui/components@1.6.0-rc.23:
+    resolution: {integrity: sha512-hfB2g38ocAgOjK0emT+uLhQd+1GfWUWHuCYWdnMuW44mo7QA15q6RPtjfLPMtHaNZy91neuB9G0lxFqf7ErwQw==}
     dependencies:
       '@a11y-ui/core': 1.0.3
       '@floating-ui/dom': 1.4.5
-      '@public-ui/schema': 1.6.0-rc.22
+      '@public-ui/schema': 1.6.0-rc.23
       i18next: 23.2.11
     dev: true
 
-  /@public-ui/schema@1.6.0-rc.22:
-    resolution: {integrity: sha512-K511Us2oxQnMyAcS4rZgn9Dc7AEnHdc0PWyY3RdT7OO/155ZqM0Elpzldwf6eHkVSZyISHR5T/hlTevhN6yhZQ==}
+  /@public-ui/schema@1.6.0-rc.23:
+    resolution: {integrity: sha512-WL6TmshLq7iHytJhqJM8LGwGL3jXrnwYPUNIcFKeMMFhq0B671BcMwhPmJXwqBIODjyyNxvCsqm5hz9/7VgtMw==}
     dependencies:
       '@a11y-ui/core': 1.0.3
     dev: true
@@ -847,8 +847,8 @@ packages:
     resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
     dev: true
 
-  /typescript@4.3.2:
-    resolution: {integrity: sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==}
+  /typescript@4.3.5:
+    resolution: {integrity: sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
